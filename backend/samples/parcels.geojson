@@ -1,0 +1,22 @@
+{
+  "type": "FeatureCollection",
+  "crs": { "type": "name", "properties": { "name": "EPSG:4326" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "survey": "12/1", "owner": "Patil" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[73.8567, 18.5204], [73.8574, 18.5204], [73.8574, 18.5210], [73.8567, 18.5210], [73.8567, 18.5204]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "survey": "12/2", "owner": "Deshmukh" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[73.85735, 18.5204], [73.8581, 18.5204], [73.8581, 18.52105], [73.85735, 18.52105], [73.85735, 18.5204]]]
+      }
+    }
+  ]
+}

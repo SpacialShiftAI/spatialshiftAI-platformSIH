@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "drone_survey_truth",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32643" } },
+"features": [
+{ "type": "Feature", "properties": { "parcel_id": "P-01", "survey_no": "12/1", "source": "drone_survey_truth", "area_m2": 625.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 379250.0, 2048200.0 ], [ 379275.0, 2048200.0 ], [ 379275.0, 2048225.0 ], [ 379250.0, 2048225.0 ], [ 379250.0, 2048200.0 ] ] ] } },
+{ "type": "Feature", "properties": { "parcel_id": "P-02", "survey_no": "12/2", "source": "drone_survey_truth", "area_m2": 625.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 379275.0, 2048200.0 ], [ 379300.0, 2048200.0 ], [ 379300.0, 2048225.0 ], [ 379275.0, 2048225.0 ], [ 379275.0, 2048200.0 ] ] ] } },
+{ "type": "Feature", "properties": { "parcel_id": "P-03", "survey_no": "12/3", "source": "drone_survey_truth", "area_m2": 625.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 379300.0, 2048200.0 ], [ 379325.0, 2048200.0 ], [ 379325.0, 2048225.0 ], [ 379300.0, 2048225.0 ], [ 379300.0, 2048200.0 ] ] ] } },
+{ "type": "Feature", "properties": { "parcel_id": "P-04", "survey_no": "12/4", "source": "drone_survey_truth", "area_m2": 625.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 379325.0, 2048200.0 ], [ 379350.0, 2048200.0 ], [ 379350.0, 2048225.0 ], [ 379325.0, 2048225.0 ], [ 379325.0, 2048200.0 ] ] ] } },
+{ "type": "Feature", "properties": { "parcel_id": "P-05", "survey_no": "12/5", "source": "drone_survey_truth", "area_m2": 625.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 379350.0, 2048200.0 ], [ 379375.0, 2048200.0 ], [ 379375.0, 2048225.0 ], [ 379350.0, 2048225.0 ], [ 379350.0, 2048200.0 ] ] ] } },
+{ "type": "Feature", "properties": { "parcel_id": "P-06", "survey_no": "12/6", "source": "drone_survey_truth", "area_m2": 625.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 379250.0, 2048225.0 ], [ 379275.0, 2048225.0 ], [ 379275.0, 2048250.0 ], [ 379250.0, 2048250.0 ], [ 379250.0, 2048225.0 ] ] ] } },
+{ "type": "Feature", "properties": { "parcel_id": "P-07", "survey_no": "12/7", "source": "drone_survey_truth", "area_m2": 625.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 379275.0, 2048225.0 ], [ 379300.0, 2048225.0 ], [ 379300.0, 2048250.0 ], [ 379275.0, 2048250.0 ], [ 379275.0, 2048225.0 ] ] ] } },
+{ "type": "Feature", "properties": { "parcel_id": "P-08", "survey_no": "12/8", "source": "drone_survey_truth", "area_m2": 625.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 379300.0, 2048225.0 ], [ 379325.0, 2048225.0 ], [ 379325.0, 2048250.0 ], [ 379300.0, 2048250.0 ], [ 379300.0, 2048225.0 ] ] ] } },
+{ "type": "Feature", "properties": { "parcel_id": "P-09", "survey_no": "12/9", "source": "drone_survey_truth", "area_m2": 625.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 379325.0, 2048225.0 ], [ 379350.0, 2048225.0 ], [ 379350.0, 2048250.0 ], [ 379325.0, 2048250.0 ], [ 379325.0, 2048225.0 ] ] ] } },
+{ "type": "Feature", "properties": { "parcel_id": "P-10", "survey_no": "12/10", "source": "drone_survey_truth", "area_m2": 625.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 379350.0, 2048225.0 ], [ 379375.0, 2048225.0 ], [ 379375.0, 2048250.0 ], [ 379350.0, 2048250.0 ], [ 379350.0, 2048225.0 ] ] ] } }
+]
+}

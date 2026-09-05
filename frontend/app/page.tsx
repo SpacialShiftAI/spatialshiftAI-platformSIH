@@ -1,8 +1,8 @@
 'use client';
 
 import { useState, useCallback } from 'react';
+import dynamic from 'next/dynamic';
 import { Sidebar } from '@/components/dashboard/sidebar';
-import { DualMap } from '@/components/dashboard/dual-map';
 import { ConflictInspector } from '@/components/dashboard/conflict-inspector';
 import { TopBar } from '@/components/dashboard/top-bar';
 import { PARCEL_DATA, type UploadItem, type HarmonizationRun } from '@/lib/parcels';
@@ -11,6 +11,11 @@ import {
   BackendSessionProvider,
   useBackendSession,
 } from '@/lib/backend-session';
+
+const DualMap = dynamic(
+  () => import('@/components/dashboard/dual-map').then((mod) => mod.DualMap),
+  { ssr: false }
+);
 
 export default function Home() {
   return (

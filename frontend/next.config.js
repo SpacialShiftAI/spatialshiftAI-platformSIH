@@ -4,9 +4,7 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: { unoptimized: true },
-  experimental: {
-    transpilePackages: ['maplibre-gl'],
-  },
+  transpilePackages: ['maplibre-gl'],
 };
 
 module.exports = nextConfig;
